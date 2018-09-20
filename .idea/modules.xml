@@ -25,6 +25,9 @@
       <module fileurl="file://$PROJECT_DIR$/21ValidParanthesis/21ValidParanthesis.iml" filepath="$PROJECT_DIR$/21ValidParanthesis/21ValidParanthesis.iml" />
       <module fileurl="file://$PROJECT_DIR$/22Queue/22Queue.iml" filepath="$PROJECT_DIR$/22Queue/22Queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/23BinarySearchTree/23BinarySearchTree.iml" filepath="$PROJECT_DIR$/23BinarySearchTree/23BinarySearchTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/24VaidateBinarySearch/24VaidateBinarySearch.iml" filepath="$PROJECT_DIR$/24VaidateBinarySearch/24VaidateBinarySearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/25DetecetLoopInLInkedList/25DetecetLoopInLInkedList.iml" filepath="$PROJECT_DIR$/25DetecetLoopInLInkedList/25DetecetLoopInLInkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/26BinaryToMirrorTree/26BinaryToMirrorTree.iml" filepath="$PROJECT_DIR$/26BinaryToMirrorTree/26BinaryToMirrorTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms.iml" />
     </modules>
   </component>
