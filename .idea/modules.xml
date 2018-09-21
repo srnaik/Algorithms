@@ -28,6 +28,8 @@
       <module fileurl="file://$PROJECT_DIR$/24VaidateBinarySearch/24VaidateBinarySearch.iml" filepath="$PROJECT_DIR$/24VaidateBinarySearch/24VaidateBinarySearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/25DetecetLoopInLInkedList/25DetecetLoopInLInkedList.iml" filepath="$PROJECT_DIR$/25DetecetLoopInLInkedList/25DetecetLoopInLInkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/26BinaryToMirrorTree/26BinaryToMirrorTree.iml" filepath="$PROJECT_DIR$/26BinaryToMirrorTree/26BinaryToMirrorTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/27IntToRoman/27IntToRoman.iml" filepath="$PROJECT_DIR$/27IntToRoman/27IntToRoman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/28RomanToInteger/28RomanToInteger.iml" filepath="$PROJECT_DIR$/28RomanToInteger/28RomanToInteger.iml" />
       <module fileurl="file://$PROJECT_DIR$/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms.iml" />
     </modules>
   </component>
