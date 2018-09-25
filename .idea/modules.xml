@@ -33,6 +33,7 @@
       <module fileurl="file://$PROJECT_DIR$/29BinarySearch/29BinarySearch.iml" filepath="$PROJECT_DIR$/29BinarySearch/29BinarySearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/30SearchInsertionPosition/30SearchInsertionPosition.iml" filepath="$PROJECT_DIR$/30SearchInsertionPosition/30SearchInsertionPosition.iml" />
       <module fileurl="file://$PROJECT_DIR$/31MinimumInSortedArray/31MinimumInSortedArray.iml" filepath="$PROJECT_DIR$/31MinimumInSortedArray/31MinimumInSortedArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/32MinSortedArrayDuplicates/32MinSortedArrayDuplicates.iml" filepath="$PROJECT_DIR$/32MinSortedArrayDuplicates/32MinSortedArrayDuplicates.iml" />
       <module fileurl="file://$PROJECT_DIR$/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms.iml" />
     </modules>
   </component>
