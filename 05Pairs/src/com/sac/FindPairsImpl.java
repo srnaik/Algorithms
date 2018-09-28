@@ -24,7 +24,7 @@ public class FindPairsImpl {
 
     public static void main(String[] args) {
 
-        System.out.println(1%3);
+        System.out.println(11%3);
         int[] arrayElements = {10,-3,-19,-22,66,78,0,-12,67,99};
         FindPairsImpl findPairs = new FindPairsImpl();
         boolean isPresent = findPairs.isPairsPresent(arrayElements);

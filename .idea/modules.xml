@@ -36,6 +36,7 @@
       <module fileurl="file://$PROJECT_DIR$/32MinSortedArrayDuplicates/32MinSortedArrayDuplicates.iml" filepath="$PROJECT_DIR$/32MinSortedArrayDuplicates/32MinSortedArrayDuplicates.iml" />
       <module fileurl="file://$PROJECT_DIR$/33ZigZagConversion/33ZigZagConversion.iml" filepath="$PROJECT_DIR$/33ZigZagConversion/33ZigZagConversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/34PascalsAlgorithm/34PascalsAlgorithm.iml" filepath="$PROJECT_DIR$/34PascalsAlgorithm/34PascalsAlgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/35LinkedListCycle/35LinkedListCycle.iml" filepath="$PROJECT_DIR$/35LinkedListCycle/35LinkedListCycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms.iml" />
     </modules>
   </component>

@@ -27,6 +27,6 @@ public class ValidParantheses {
     public static void main(String[] args) {
 
         ValidParantheses validParantheses = new ValidParantheses();
-        validParantheses.isValid("{{}]");
+        validParantheses.isValid("]}[{");
     }
 }
