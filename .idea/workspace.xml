@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09a8977a-0b15-4096-a506-2d7fb1647981" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/35LinkedListCycle/35LinkedListCycle.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/35LinkedListCycle/src/com/sac/LinkedListCycle.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/36ThreeSumProblem/36ThreeSumProblem.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/36ThreeSumProblem/src/com/sac/ThreeSumProblem.java" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/05Pairs/src/com/sac/FindPairsImpl.java" afterPath="$PROJECT_DIR$/05Pairs/src/com/sac/FindPairsImpl.java" />
-      <change beforePath="$PROJECT_DIR$/21ValidParanthesis/src/com/sac/ValidParantheses.java" afterPath="$PROJECT_DIR$/21ValidParanthesis/src/com/sac/ValidParantheses.java" />
-      <change beforePath="$PROJECT_DIR$/out/production/05Pairs/com/sac/FindPairsImpl.class" afterPath="$PROJECT_DIR$/out/production/05Pairs/com/sac/FindPairsImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/21ValidParanthesis/com/sac/ValidParantheses.class" afterPath="$PROJECT_DIR$/out/production/21ValidParanthesis/com/sac/ValidParantheses.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,12 +30,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedListCycle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkedListCycle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/35LinkedListCycle/src/com/sac/LinkedListCycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="44" column="70" lean-forward="true" selection-start-line="44" selection-start-column="70" selection-end-line="44" selection-end-column="70" />
+            <state relative-caret-position="636">
+              <caret line="44" column="70" lean-forward="false" selection-start-line="44" selection-start-column="70" selection-end-line="44" selection-end-column="70" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreeSumProblem.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/36ThreeSumProblem/src/com/sac/ThreeSumProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/07StringToInteger/src/com/sac/StrToAtoi.java" />
         <option value="$PROJECT_DIR$/08LongestSubString/src/com/sac/LongestSubStringImpl.java" />
         <option value="$PROJECT_DIR$/09ValidNumber/src/com/sac/ValidNumber.java" />
         <option value="$PROJECT_DIR$/05Pairs/src/com/sac/_FindPairsImpl.java" />
@@ -123,11 +130,13 @@
         <option value="$PROJECT_DIR$/05Pairs/src/com/sac/FindPairsImpl.java" />
         <option value="$PROJECT_DIR$/21ValidParanthesis/src/com/sac/ValidParantheses.java" />
         <option value="$PROJECT_DIR$/35LinkedListCycle/src/com/sac/LinkedListCycle.java" />
+        <option value="$PROJECT_DIR$/36ThreeSumProblem/src/com/sac/ThreeSumProblem.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="525" />
+    <option name="y" value="68" />
     <option name="width" value="1440" />
     <option name="height" value="815" />
   </component>
@@ -157,12 +166,12 @@
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="35LinkedListCycle" type="462c0819:PsiDirectoryNode" />
+              <item name="36ThreeSumProblem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="35LinkedListCycle" type="462c0819:PsiDirectoryNode" />
+              <item name="36ThreeSumProblem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -194,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListCycle">
+  <component name="RunManager" selected="Application.ThreeSumProblem">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -259,14 +268,14 @@
       <module name="35LinkedListCycle" />
       <envs />
     </configuration>
-    <configuration name="PascalsAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreeSumProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.sac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.sac.PascalsAlgorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.sac.ThreeSumProblem" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -275,7 +284,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="34PascalsAlgorithm" />
+      <module name="36ThreeSumProblem" />
       <envs />
     </configuration>
     <configuration name="ValidParantheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -372,19 +381,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.PascalsAlgorithm" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FindPairsImpl" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AddNumbersImpl" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ValidParantheses" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LinkedListCycle" />
+      <item index="0" class="java.lang.String" itemvalue="Application.FindPairsImpl" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AddNumbersImpl" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ValidParantheses" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LinkedListCycle" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ThreeSumProblem" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LinkedListCycle" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ValidParantheses" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AddNumbersImpl" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FindPairsImpl" />
-        <item index="4" class="java.lang.String" itemvalue="Application.PascalsAlgorithm" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ThreeSumProblem" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LinkedListCycle" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ValidParantheses" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AddNumbersImpl" />
+        <item index="4" class="java.lang.String" itemvalue="Application.FindPairsImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -405,7 +414,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="815" extended-state="0" />
+    <frame x="525" y="68" width="1440" height="815" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -416,7 +425,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39569312" sideWeight="0.50555557" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30820996" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30820996" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -585,19 +594,18 @@
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/36ThreeSumProblem/src/com/sac/ThreeSumProblem.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="28" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/12LongestPalindrome/12LongestPalindrome.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10LongestSubstringWith2Distinct/src/com/sac/LongestSubStringWithTwoDistinct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -990,9 +998,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/35LinkedListCycle/src/com/sac/LinkedListCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="44" column="70" lean-forward="true" selection-start-line="44" selection-start-column="70" selection-end-line="44" selection-end-column="70" />
+        <state relative-caret-position="636">
+          <caret line="44" column="70" lean-forward="false" selection-start-line="44" selection-start-column="70" selection-end-line="44" selection-end-column="70" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/36ThreeSumProblem/src/com/sac/ThreeSumProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

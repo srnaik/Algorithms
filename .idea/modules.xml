@@ -37,6 +37,7 @@
       <module fileurl="file://$PROJECT_DIR$/33ZigZagConversion/33ZigZagConversion.iml" filepath="$PROJECT_DIR$/33ZigZagConversion/33ZigZagConversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/34PascalsAlgorithm/34PascalsAlgorithm.iml" filepath="$PROJECT_DIR$/34PascalsAlgorithm/34PascalsAlgorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/35LinkedListCycle/35LinkedListCycle.iml" filepath="$PROJECT_DIR$/35LinkedListCycle/35LinkedListCycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/36ThreeSumProblem/36ThreeSumProblem.iml" filepath="$PROJECT_DIR$/36ThreeSumProblem/36ThreeSumProblem.iml" />
       <module fileurl="file://$PROJECT_DIR$/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms.iml" />
     </modules>
   </component>
