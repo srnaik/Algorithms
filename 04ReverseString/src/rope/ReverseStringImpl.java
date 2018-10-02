@@ -1,4 +1,4 @@
-package com.sac;
+package rope;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class ReverseStringImpl {
      * @param str
      * @return
      */
-    public String reverseString(String str){
+    public String reverseWordsInStringString(String str){
         if(str == null || str.length() == 0)
             return " ";
         String[] strArray = str.split(" ");
@@ -20,6 +20,18 @@ public class ReverseStringImpl {
             }
         }
         return builder.length() ==0 ? " " : builder.substring(0, builder.length()-1);
+    }
+
+
+    public String reverseString(String string){
+        if(string == null || string.isEmpty())
+            return null;
+        char[] charString = string.toCharArray();
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = charString.length - 1; i >=0; i--){
+            stringBuilder.append(charString[i]);
+        }
+        return stringBuilder.toString();
     }
 
 
