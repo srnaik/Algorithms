@@ -27,9 +27,21 @@ public class ArraySum {
     }
 
 
+    public int pivotIndex(int[] nums) {
+
+        int sum = 0, leftsum = 0;
+        for (int x: nums) sum += x;
+        for (int i = 0; i < nums.length; ++i) {
+            if (leftsum == sum - leftsum - nums[i]) return i;
+            leftsum += nums[i];
+        }
+        return -1;
+    }
+
+
     public static void main(String[] args) {
         // Inputs:  {1,14,18,4,6,2,3}; {2,3,7,6,8,4}; {1,14,18,7,4,6,2,3}
-        int[] items = {1,14,18,7,4,6,2,3};
+        int[] items = {-1,-1,-1,-1,-1,0};
         ArraySum arraySum = new ArraySum();
         int index = arraySum.findIndex(items);
         if(index > -1){
