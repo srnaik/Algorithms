@@ -1,0 +1,38 @@
+package com.sac;
+
+public class ArraySum {
+
+
+    public int findIndex(int[] items){
+
+
+        if(items == null || items.length == 0)
+            return -1;
+
+        int i = 0, j = items.length-1, sum1 = items[i++], sum2 = items[j--];
+
+        while (i < j){
+
+            if(sum1 < sum2){
+                sum1 = sum1 + items[i++];
+            }else if(sum1 > sum2){
+                sum2 = sum2 + items[j--];
+            }
+        }
+
+        return (i == j && sum1 == sum2) ? i :-1;
+    }
+
+
+    public static void main(String[] args) {
+        // Inputs:  {1,14,6,7,3,2,3}; {2,3,7,6,8,4}
+        int[] items = {1,14,6,7,3,2,3};
+        ArraySum arraySum = new ArraySum();
+        int index = arraySum.findIndex(items);
+        if(index > -1){
+            System.out.println("Index found at: " + index);
+        }else{
+            System.out.println("Array Index not found ");
+        }
+    }
+}
