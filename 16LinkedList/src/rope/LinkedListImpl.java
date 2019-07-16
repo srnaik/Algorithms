@@ -1,9 +1,12 @@
-package com.sac;
+package rope;
+
+import java.util.LinkedList;
+import java.util.List;
 
 public class LinkedListImpl {
 
     public static void main(String[] args) {
-        Node node = new Node(10);
+        /*Node node = new Node(10);
         node.add(20);
         node.add(30);
         node.add(40);
@@ -19,6 +22,9 @@ public class LinkedListImpl {
         node.delete(20,node);
         System.out.println("**** After Deleting ****");
         node.display(node);
-        System.out.println("**** After Deleting ****");
+        System.out.println("**** After Deleting ****");*/
+        System.out.println(17/10);
+
+        List list = new LinkedList();
     }
 }
