@@ -39,6 +39,23 @@ public class Solution {
         return Integer.min(maxDepth(rootNode.left),maxDepth(rootNode.right))+1;
     }
 
+    public boolean isBalanced(Node rootNode){
+        return treeDepth(rootNode) != -1;
+    }
+
+    private int treeDepth(Node rootNode){
+
+        if(rootNode == null)
+            return 0;
+        int left = treeDepth(rootNode.left);
+        if(left == -1)
+            return -1;
+        int right = treeDepth(rootNode.right);
+        if(right == -1)
+            return -1;
+        return (Math.abs(left-right) <= 1) ? (Math.max(left,right) + 1) : -1;
+    }
+
 
     public static void main(String[] args) {
 
@@ -54,6 +71,7 @@ public class Solution {
         rootNode.right.right = new Node(26);
         rootNode.right.right.right = new Node(28);
         rootNode.right.right.left = new Node(25);
+    ;
 
         boolean isBST = solution.isValidBST(rootNode);
         if(isBST)
@@ -66,6 +84,12 @@ public class Solution {
 
         int minDepth = solution.minDepth(rootNode);
         System.out.println("Minimum Depth: "+ minDepth);
+
+        boolean isBalanced = solution.isBalanced(rootNode);
+        if(isBalanced)
+            System.out.println("Give Tree is a Balanced Tree");
+        else
+            System.out.println("Given Tree is not a Balanced Tree");
 
 
     }
