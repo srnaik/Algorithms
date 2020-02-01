@@ -6,7 +6,7 @@ public class BinaryTreeMaxPath {
 
     public int maxPath(TreeNode treeNode){
         maxSum = Integer.MIN_VALUE;
-        findMax(treeNode);
+            findMax(treeNode);
         return maxSum;
     }
 

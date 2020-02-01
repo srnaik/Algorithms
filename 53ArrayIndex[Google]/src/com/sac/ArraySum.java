@@ -41,9 +41,9 @@ public class ArraySum {
 
     public static void main(String[] args) {
         // Inputs:  {1,14,18,4,6,2,3}; {2,3,7,6,8,4}; {1,14,18,7,4,6,2,3}
-        int[] items = {-1,-1,-1,-1,-1,0};
+        int[] items = {1,14,18,4,6,2,3};
         ArraySum arraySum = new ArraySum();
-        int index = arraySum.findIndex(items);
+        int index = arraySum.pivotIndex(items);
         if(index > -1){
             System.out.println("Index found at: " + index);
         }else{

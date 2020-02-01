@@ -1,6 +1,6 @@
 package rope;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class ReverseStringImpl {
 
@@ -22,6 +22,41 @@ public class ReverseStringImpl {
         return builder.length() ==0 ? " " : builder.substring(0, builder.length()-1);
     }
 
+    private ReverseStringImpl(){
+
+    }
+
+    public String reverseWords(String s){
+        StringBuilder reversed = new StringBuilder();
+        int j = s.length();
+        for (int i = s.length() - 1; i >= 0; i--) {
+            if (s.charAt(i) == ' ') {
+                j = i;
+            } else if (i == 0 || s.charAt(i - 1) == ' ') {
+                if (reversed.length() != 0) {
+                    reversed.append(' ');
+                }
+                reversed.append(s.substring(i, j));
+            }
+        }
+        return reversed.toString();
+    }
+
+
+    public String reverseStringUsingArray(String str){
+
+        String[] strArray = str.split(" ");
+        StringBuilder sb = new StringBuilder();
+        for(int j = strArray.length-1; j >=0; j--){
+            sb.append(strArray[j]);
+            if(j > 0)
+                sb.append(' ');
+        }
+
+
+        return sb.toString();
+    }
+
 
     public String reverseString(String string){
         if(string == null || string.isEmpty())
@@ -36,11 +71,25 @@ public class ReverseStringImpl {
 
 
     public static void main(String[] args) {
-        ReverseStringImpl impl = new ReverseStringImpl();
-        System.out.println("Enter the string that is to reversed:");
+      /*  ReverseStringImpl impl = new ReverseStringImpl();
+        *//*System.out.println("Enter the string that is to reversed:");
         Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
-        String str = impl.reverseString(input);
-        System.out.println("Reversed String is: " + str);
+        String input = scanner.nextLine();*//*
+        String str = impl.reverseStringUsingArray("the sky, is blue");
+        System.out.println("Reversed String is: " + str);*/
+
+        Map<String,Set<String>> friendsMap = new HashMap<>();
+
+        Set<String> set = new HashSet<>();
+        set.add("sachin");
+
+        String str = "Hello";
+        str = str.toLowerCase();
+        friendsMap.put("a",set);
+        System.out.println(friendsMap);
+        friendsMap.get("a").remove("Don");
+        System.out.println("After Removing Don"+ friendsMap);
+        List<String> arList = new ArrayList<>(friendsMap.get("a"));
+        System.out.println("List from Set:" + arList);
     }
 }

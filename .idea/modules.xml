@@ -38,7 +38,33 @@
       <module fileurl="file://$PROJECT_DIR$/34PascalsAlgorithm/34PascalsAlgorithm.iml" filepath="$PROJECT_DIR$/34PascalsAlgorithm/34PascalsAlgorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/35LinkedListCycle/35LinkedListCycle.iml" filepath="$PROJECT_DIR$/35LinkedListCycle/35LinkedListCycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/36ThreeSumProblem/36ThreeSumProblem.iml" filepath="$PROJECT_DIR$/36ThreeSumProblem/36ThreeSumProblem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/37QuickSort/37QuickSort.iml" filepath="$PROJECT_DIR$/37QuickSort/37QuickSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/38ContainerWithMostWater/38ContainerWithMostWater.iml" filepath="$PROJECT_DIR$/38ContainerWithMostWater/38ContainerWithMostWater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/39GetSmallestSubString/39GetSmallestSubString.iml" filepath="$PROJECT_DIR$/39GetSmallestSubString/39GetSmallestSubString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/40MaxAndMinInArray/40MaxAndMinInArray.iml" filepath="$PROJECT_DIR$/40MaxAndMinInArray/40MaxAndMinInArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/41BubbleSort/41BubbleSort.iml" filepath="$PROJECT_DIR$/41BubbleSort/41BubbleSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/42MergeSort/42MergeSort.iml" filepath="$PROJECT_DIR$/42MergeSort/42MergeSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/43MergeNKLists/43MergeNKLists.iml" filepath="$PROJECT_DIR$/43MergeNKLists/43MergeNKLists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/44PrimeNumber/44PrimeNumber.iml" filepath="$PROJECT_DIR$/44PrimeNumber/44PrimeNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/45InsertionSort/45InsertionSort.iml" filepath="$PROJECT_DIR$/45InsertionSort/45InsertionSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/46Graph-Traversal/46Graph-Traversal.iml" filepath="$PROJECT_DIR$/46Graph-Traversal/46Graph-Traversal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/47HeapSort/47HeapSort.iml" filepath="$PROJECT_DIR$/47HeapSort/47HeapSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/48MaxHeap/48MaxHeap.iml" filepath="$PROJECT_DIR$/48MaxHeap/48MaxHeap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/49RecursionProblems/49RecursionProblems.iml" filepath="$PROJECT_DIR$/49RecursionProblems/49RecursionProblems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/50SelectionSort/50SelectionSort.iml" filepath="$PROJECT_DIR$/50SelectionSort/50SelectionSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/51NextGreaterElement01/51NextGreaterElement01.iml" filepath="$PROJECT_DIR$/51NextGreaterElement01/51NextGreaterElement01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/52StackWithQueue/52StackWithQueue.iml" filepath="$PROJECT_DIR$/52StackWithQueue/52StackWithQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/53ArrayIndex[Google]/53ArrayIndex[Google].iml" filepath="$PROJECT_DIR$/53ArrayIndex[Google]/53ArrayIndex[Google].iml" />
+      <module fileurl="file://$PROJECT_DIR$/54MergeArrays/54MergeArrays.iml" filepath="$PROJECT_DIR$/54MergeArrays/54MergeArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/55SwapNodes/55SwapNodes.iml" filepath="$PROJECT_DIR$/55SwapNodes/55SwapNodes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/56BinaryTreeeMaxPath/56BinaryTreeeMaxPath.iml" filepath="$PROJECT_DIR$/56BinaryTreeeMaxPath/56BinaryTreeeMaxPath.iml" />
+      <module fileurl="file://$PROJECT_DIR$/57BinaryTreeUpsideDown/57BinaryTreeUpsideDown.iml" filepath="$PROJECT_DIR$/57BinaryTreeUpsideDown/57BinaryTreeUpsideDown.iml" />
+      <module fileurl="file://$PROJECT_DIR$/58ValidBinarySearchTree/58ValidBinarySearchTree.iml" filepath="$PROJECT_DIR$/58ValidBinarySearchTree/58ValidBinarySearchTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/59BitManipulation/59BitManipulation.iml" filepath="$PROJECT_DIR$/59BitManipulation/59BitManipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/60Fibonacci/60Fibonacci.iml" filepath="$PROJECT_DIR$/60Fibonacci/60Fibonacci.iml" />
       <module fileurl="file://$PROJECT_DIR$/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OCA/OCA.iml" filepath="$PROJECT_DIR$/OCA/OCA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OCA/PrimeNumbers.iml" filepath="$PROJECT_DIR$/OCA/PrimeNumbers.iml" />
     </modules>
   </component>
 </project>
