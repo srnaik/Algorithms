@@ -23,12 +23,12 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] num = {10,2,5,3};
+        int[] num = {10, 2, 5, 3};
         boolean isExist = solution.checkIfExist(num);
 
-        if(isExist){
+        if (isExist) {
             System.out.println("Number Exist");
-        }else{
+        } else {
             System.out.println("Number doesn't exist");
         }
     }
