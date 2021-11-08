@@ -10,6 +10,9 @@ public class Solution {
      * Step 2: Generate and eliminate composite numbers.
      * Step 3: Count remaining primes.
      *
+     * Time Complexity : O(sqrt(n)loglogn))
+     * Space Complexity : O(n)
+     *
      * @param n
      * @return
      */
