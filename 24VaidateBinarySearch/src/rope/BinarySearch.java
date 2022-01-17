@@ -1,5 +1,7 @@
 package rope;
 
+import java.util.Arrays;
+
 public class BinarySearch {
 
     private Node root;
@@ -21,6 +23,7 @@ public class BinarySearch {
             root.leftNode = insert(root.leftNode,data);
         else if(data > root.data)
             root.rightNode = insert(root.rightNode,data);
+       // Arrays.binarySearch()
         return root;
     }
 

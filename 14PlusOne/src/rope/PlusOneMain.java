@@ -1,13 +1,12 @@
 package rope;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class PlusOneMain {
 
     public void plusOne(List<Integer> digits){
 
+        //Stack
         for(int i = digits.size()-1; i>= 0; i--){
             int digit = digits.get(i);
             if(digit < 9){
@@ -92,7 +91,7 @@ public class PlusOneMain {
             Integer integer = (Integer) results[i];
             System.out.println(integer);
         }*/
-       items = plusOneMain.plusOneAgain(items);
+       items = plusOneMain.plusOne(items);
         for (int i = 0; i < items.length; i++)
             System.out.println(items[i]);
     }

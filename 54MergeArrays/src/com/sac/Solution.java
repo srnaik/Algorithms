@@ -34,6 +34,15 @@ public class Solution {
         Solution solution = new Solution();
         solution.listDemo();
         solution.setDemo();
+
+        String strHost = "localhost:8080";
+        String refHost = "abc";
+
+        if(strHost.contains(refHost)){
+            System.out.println("True");
+        }else{
+            System.out.println("False");
+        }
     }
 
 

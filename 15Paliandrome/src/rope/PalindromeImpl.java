@@ -58,7 +58,7 @@ public class PalindromeImpl {
 
         Scanner scanner = new Scanner(System.in);
         int number = Integer.parseInt(scanner.nextLine());
-        boolean isPalindrome = palindrome.isPalindrome(number);
+        boolean isPalindrome = palindrome.reverse(number);
 
         if(isPalindrome) {
             System.out.println("The given number is palindrome");
@@ -66,7 +66,8 @@ public class PalindromeImpl {
         else {
             System.out.println("The given number is not a palindrome");
         }
-
+        String s = "smartit";
+        System.out.println(Character.toTitleCase(s.charAt(0)));
     }
 
 }

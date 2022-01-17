@@ -18,8 +18,8 @@ public class MergeSortImpl {
 
     void divideArray(int lowIndex, int highIndex){
         if(lowIndex < highIndex){
-            int middleIndex = (highIndex-lowIndex)/2 + lowIndex;
-
+            /*int middleIndex = (highIndex-lowIndex)/2 + lowIndex;*/
+            int middleIndex = (highIndex+lowIndex) >>> 1;
             divideArray(lowIndex,middleIndex);
             divideArray(middleIndex+1, highIndex);
             mergeArray(lowIndex,middleIndex,highIndex);
@@ -54,16 +54,16 @@ public class MergeSortImpl {
     }
 
     public static void main(String[] args) throws CloneNotSupportedException {
-        /*MergeSortImpl mergeSort = new MergeSortImpl();
+        MergeSortImpl mergeSort = new MergeSortImpl();
         int[] item = {2,3,6,18,10,7,0,12,9,8,-1};
         mergeSort.sortArray(item);
         System.out.println("Array Elements after sorting");
         for (int a : item) {
             System.out.print(a + " ");
-        }*/
+        }
 
-        System.out.println("Divide: " + 27/7);
-        System.out.println("Percent: " + 22%7) ;
+        //System.out.println("Divide: " + 27/7);
+        //System.out.println("Percent: " + 22%7) ;
 
     }
 

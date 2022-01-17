@@ -1,5 +1,7 @@
 package com.sac;
 
+import java.util.Arrays;
+
 public class Solution {
 
     public int findNumbers(int[] nums){
@@ -27,6 +29,8 @@ public class Solution {
         Solution solution = new Solution();
         int result = solution.findNumbers(nums);
         System.out.println("Total Numbers with Even number of Digits: " + result);
+        Arrays.sort(nums);
+        System.out.println(nums);
 
     }
 }

@@ -20,9 +20,17 @@ public class ReverseString {
 
 
     public static void main(String[] args) {
-        ReverseString reverseString = new ReverseString();
-        String str = " I'am going to India";
-        String reverseStr = reverseString.reverseString(str);
-        System.out.println(reverseStr);
+       // ReverseString reverseString = new ReverseString();
+       // String str = " I'am going to India";
+       // String reverseStr = reverseString.reverseString(str);
+       // System.out.println(reverseStr);
+        String strHost = "localhost:8080";
+        String refHost = "localhost";
+
+        if(strHost.contains(refHost)){
+            System.out.println("True");
+        }else{
+            System.out.println("False");
+        }
     }
 }

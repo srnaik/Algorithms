@@ -1,6 +1,9 @@
 package rope;
 
-public class  SubStringImpl {
+import java.util.HashMap;
+import java.util.Map;
+
+public class   SubStringImpl {
 
     public int isSubstring(String hayStack, String needle){
 
@@ -28,7 +31,7 @@ public class  SubStringImpl {
 
     public static void main(String[] args) {
         SubStringImpl subString = new SubStringImpl();
-        int index = subString.isSubstring("hello","aao");
+        int index = subString.isSubstring("hello","ello");
         if(index > 0){
             System.out.println("SubString is found at index: " + index);
         }else{

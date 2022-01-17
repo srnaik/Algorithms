@@ -28,7 +28,7 @@ public class IntegerToRoman {
 
     public static void main(String[] args) {
         IntegerToRoman integerToRoman = new IntegerToRoman();
-        String strRoman = integerToRoman.intToRoman(1991);
+        String strRoman = integerToRoman.intToRoman(991);
         System.out.println("Given Integer Representation In Roman is: " + strRoman);
     }
 }

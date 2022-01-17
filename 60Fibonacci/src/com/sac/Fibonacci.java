@@ -6,7 +6,7 @@ public class Fibonacci {
 
     public int getFibonacciSeries(int number){
 
-        if( number <=1)
+        if( number <= 1)
             return number;
 
         return getFibonacciSeries(number-1) + getFibonacciSeries(number-2);

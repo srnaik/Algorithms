@@ -1,5 +1,7 @@
 package com.sac;
 
+import java.util.Arrays;
+
 public class Solution {
 
     public int findMaxConsecutiveOnes(int[] nums){
@@ -23,5 +25,6 @@ public class Solution {
         Solution solution = new Solution();
         int result = solution.findMaxConsecutiveOnes(items);
         System.out.println("Total Count: " + result);
+        Arrays.sort(items);
     }
 }

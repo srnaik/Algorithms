@@ -1,5 +1,7 @@
 package com.sac;
 
+import java.util.stream.Stream;
+
 public class Solution {
 
 
@@ -11,6 +13,7 @@ public class Solution {
     private boolean isValidBST(Node node, int low, int high){
         if(node == null)
             return true;
+
 
         return node.val > low && node.val < high
                 && isValidBST(node.left,low, node.val)

@@ -91,5 +91,9 @@ public class ReverseStringImpl {
         System.out.println("After Removing Don"+ friendsMap);
         List<String> arList = new ArrayList<>(friendsMap.get("a"));
         System.out.println("List from Set:" + arList);
+
+         str = "helix-coffee.f4c25172d49425717.png.bmcbackup";
+        str = str.replace(".bmcbackup","");
+        System.out.println("After Replace : "+ str);
     }
 }

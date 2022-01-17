@@ -1,6 +1,11 @@
 package com.sac;
 
-public class ArraySum {
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Stack;
+
+public class ArraySum extends Thread{
 
 
     public int findIndex(int[] items){
@@ -22,7 +27,6 @@ public class ArraySum {
             if(sum1 == sum2 && i!=j)
                 return -1;
         }
-
         return (i == j && sum1 == sum2) ? i :-1;
     }
 
@@ -36,6 +40,7 @@ public class ArraySum {
             leftsum += nums[i];
         }
         return -1;
+
     }
 
 
@@ -43,6 +48,7 @@ public class ArraySum {
         // Inputs:  {1,14,18,4,6,2,3}; {2,3,7,6,8,4}; {1,14,18,7,4,6,2,3}
         int[] items = {1,14,18,4,6,2,3};
         ArraySum arraySum = new ArraySum();
+        List list = new ArrayList();
         int index = arraySum.pivotIndex(items);
         if(index > -1){
             System.out.println("Index found at: " + index);

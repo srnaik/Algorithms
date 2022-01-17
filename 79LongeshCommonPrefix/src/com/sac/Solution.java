@@ -1,5 +1,8 @@
 package com.sac;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Solution {
 
     public String longestCommonPrefix(String[] strs) {
@@ -22,10 +25,12 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        String[] str = {"flower","flow","flight"};
+        String[] str = {"flower","flowers","flowering"};
         Solution solution = new Solution();
         String prefix = solution.longestCommonPrefix(str);
         System.out.println("String with prefix: " + prefix);
+
+        List<Integer> list = new ArrayList<Integer>();
 
     }
 }

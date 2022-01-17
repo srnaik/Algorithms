@@ -33,7 +33,7 @@ public class Stack {
             return;
         int index = top;
         while (index >= 0){
-            System.out.print(arrayItems[index-- ]);
+            System.out.print(arrayItems[index--]);
             System.out.print((index >= 0) ? "," : ".");
         }
     }

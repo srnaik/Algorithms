@@ -3,9 +3,9 @@ package rope;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FindMissingRanges {
+public class MissingRanges {
 
-    public List<String> findMissingRanges(int[] nums, int lower, int higher){
+    public List<String> getMissingRanges(int[] nums, int lower, int higher){
         List<String> arList = new ArrayList<>();
         if(nums == null || nums.length == 0){
             arList.add(addRanges(lower,higher));
@@ -32,7 +32,7 @@ public class FindMissingRanges {
 
     public static void main(String[] args) {
         int[] elements = {0,1,3,50,75};
-        FindMissingRanges findMissingRanges = new FindMissingRanges();
-        System.out.println(findMissingRanges.findMissingRanges(elements,0,99));
+        MissingRanges findMissingRanges = new MissingRanges();
+        System.out.println(findMissingRanges.getMissingRanges(elements,0,99));
     }
 }
