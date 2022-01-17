@@ -11,7 +11,7 @@ public class Solution {
      * Step 3: Count remaining primes.
      *
      * Time Complexity : O(sqrt(n)loglogn))
-     * Space Complexity : O(n)
+     * Space Complexity : O(n
      *
      * @param n
      * @return
