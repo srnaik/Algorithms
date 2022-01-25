@@ -11,7 +11,6 @@
       <module fileurl="file://$PROJECT_DIR$/07StringToInteger/07StringToInteger.iml" filepath="$PROJECT_DIR$/07StringToInteger/07StringToInteger.iml" />
       <module fileurl="file://$PROJECT_DIR$/08LongestSubString/08LongestSubString.iml" filepath="$PROJECT_DIR$/08LongestSubString/08LongestSubString.iml" />
       <module fileurl="file://$PROJECT_DIR$/09ValidNumber/09ValidNumber.iml" filepath="$PROJECT_DIR$/09ValidNumber/09ValidNumber.iml" />
-      <module fileurl="file://$PROJECT_DIR$/09ValidNumber/09ValidNumber.iml" filepath="$PROJECT_DIR$/09ValidNumber/09ValidNumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/10LongestSubstringWith2Distinct/10LongestSubstringWith2Distinct.iml" filepath="$PROJECT_DIR$/10LongestSubstringWith2Distinct/10LongestSubstringWith2Distinct.iml" />
       <module fileurl="file://$PROJECT_DIR$/11FindMissingRanges/11FindMissingRanges.iml" filepath="$PROJECT_DIR$/11FindMissingRanges/11FindMissingRanges.iml" />
       <module fileurl="file://$PROJECT_DIR$/12LongestPalindrome/12LongestPalindrome.iml" filepath="$PROJECT_DIR$/12LongestPalindrome/12LongestPalindrome.iml" />
@@ -83,7 +82,7 @@
       <module fileurl="file://$PROJECT_DIR$/77ReverseString/77ReverseString.iml" filepath="$PROJECT_DIR$/77ReverseString/77ReverseString.iml" />
       <module fileurl="file://$PROJECT_DIR$/78CountAndSay/78CountAndSay.iml" filepath="$PROJECT_DIR$/78CountAndSay/78CountAndSay.iml" />
       <module fileurl="file://$PROJECT_DIR$/79LongeshCommonPrefix/79LongeshCommonPrefix.iml" filepath="$PROJECT_DIR$/79LongeshCommonPrefix/79LongeshCommonPrefix.iml" />
-      <module fileurl="file://$PROJECT_DIR$/80BuySellStocks/80BuySellStocks.iml" filepath="$PROJECT_DIR$/80BuySellStocks/80BuySellStocks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/80BestTimeToBuySellStocksII/80BestTimeToBuySellStocksII.iml" filepath="$PROJECT_DIR$/80BestTimeToBuySellStocksII/80BestTimeToBuySellStocksII.iml" />
       <module fileurl="file://$PROJECT_DIR$/81ArrayIntersection/81ArrayIntersection.iml" filepath="$PROJECT_DIR$/81ArrayIntersection/81ArrayIntersection.iml" />
       <module fileurl="file://$PROJECT_DIR$/82WordFrequency/82WordFrequency.iml" filepath="$PROJECT_DIR$/82WordFrequency/82WordFrequency.iml" />
       <module fileurl="file://$PROJECT_DIR$/83BitCount/83BitCount.iml" filepath="$PROJECT_DIR$/83BitCount/83BitCount.iml" />
@@ -96,7 +95,13 @@
       <module fileurl="file://$PROJECT_DIR$/90MaxiumSquare[DP]/90MaxiumSquare[DP].iml" filepath="$PROJECT_DIR$/90MaxiumSquare[DP]/90MaxiumSquare[DP].iml" />
       <module fileurl="file://$PROJECT_DIR$/91CoinChange[DP]/91CoinChange[DP].iml" filepath="$PROJECT_DIR$/91CoinChange[DP]/91CoinChange[DP].iml" />
       <module fileurl="file://$PROJECT_DIR$/92WordBreak[DP]/92WordBreak[DP].iml" filepath="$PROJECT_DIR$/92WordBreak[DP]/92WordBreak[DP].iml" />
-      <module fileurl="file://$PROJECT_DIR$/92WorkBreak[92]/92WorkBreak[92].iml" filepath="$PROJECT_DIR$/92WorkBreak[92]/92WorkBreak[92].iml" />
+      <module fileurl="file://$PROJECT_DIR$/92WorkBreak[DP]/92WorkBreak[DP].iml" filepath="$PROJECT_DIR$/92WorkBreak[DP]/92WorkBreak[DP].iml" />
+      <module fileurl="file://$PROJECT_DIR$/93LongestIncreasingSubsequence/93LongestIncreasingSubsequence.iml" filepath="$PROJECT_DIR$/93LongestIncreasingSubsequence/93LongestIncreasingSubsequence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/94BestTimeToBuyAndSellStockWithCoolDown[DP]/94BestTimeToBuyAndSellStockWithCoolDown[DP].iml" filepath="$PROJECT_DIR$/94BestTimeToBuyAndSellStockWithCoolDown[DP]/94BestTimeToBuyAndSellStockWithCoolDown[DP].iml" />
+      <module fileurl="file://$PROJECT_DIR$/95PaintFence[DP]/95PaintFence[DP].iml" filepath="$PROJECT_DIR$/95PaintFence[DP]/95PaintFence[DP].iml" />
+      <module fileurl="file://$PROJECT_DIR$/96CoinChange[DP-2]/96CoinChange[DP-2].iml" filepath="$PROJECT_DIR$/96CoinChange[DP-2]/96CoinChange[DP-2].iml" />
+      <module fileurl="file://$PROJECT_DIR$/97UniquePaths/97UniquePaths.iml" filepath="$PROJECT_DIR$/97UniquePaths/97UniquePaths.iml" />
+      <module fileurl="file://$PROJECT_DIR$/98BestTimetoBuyAndSellStocks/98BestTimetoBuyAndSellStocks.iml" filepath="$PROJECT_DIR$/98BestTimetoBuyAndSellStocks/98BestTimetoBuyAndSellStocks.iml" />
       <module fileurl="file://$PROJECT_DIR$/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/OCA/OCA.iml" filepath="$PROJECT_DIR$/OCA/OCA.iml" />
       <module fileurl="file://$PROJECT_DIR$/OCA/PrimeNumbers.iml" filepath="$PROJECT_DIR$/OCA/PrimeNumbers.iml" />
